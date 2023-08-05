@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design | Codehal</title>
+    
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <!-- <a href="#acting">Updates</a> -->
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Aswin R R V</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolore, qui doloremque cum nihil eum porro maxime illum.</p>
+
+            <div class="social-media">
+                <a href="https://twitter.com/AswinRavikuma13"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/aswin.rrv/"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/aswinrrv/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxl-google-cloud' ></i>
+                    <h3>Cloud Architect</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-brain' ></i>
+                    <h3>ML Enthusiast</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Software Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-movie-play' ></i>
+                    <h3>Actor</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images\home2.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about4.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm here to say about myself</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, explicabo. Sint corrupti dolores blanditiis voluptatibus, perspiciatis magnam, odio dolore doloribus quas nihil fugiat excepturi atque dolor harum, optio repudiandae qui ullam adipisci modi dignissimos! Accusantium repudiandae excepturi veniam error porro?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Education section design -->
+
+    <section class="education" id="education">
+        <h2 class="heading">Edu<span>cation</span></h2>
+        <br>
+        <br>
+        <div class="education-container">
+            <div class="education-item">
+                <div class="experience-img">
+                    <a href="https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms?init=false&nopassive=true" target="_blank"><img src="images/ASUlogo.png" alt="">
+                    <div class="overlay1"></div> <!-- Move the overlay here as a sibling -->
+                    </a>
+                </div>
+                <br>
+                <div class="education-content">
+                    <h3>Arizona State University</h3>
+                    <p>MS in <span>Computer Science</span><br>(Aug 2023 - Present)</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="experience-img">
+                    <a href="https://ceg.annauniv.edu/index.php" target="_blank"><img src="images/ceglogo1.png" alt="">
+                    <div class="overlay1"></div> <!-- Move the overlay here as a sibling -->
+                    </a>
+                </div>
+                <br>
+                <div class="education-content">
+                    <h3>College of Engineering Guindy</h3>
+                    <p>B.E in <span>Computer Science and Engineering</span><br>(Aug 2018 - Jun 2022)<br>CGPA: 9.05/10</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="experience-img">
+                    <a href="https://davchennai.org/" target="_blank"><img src="images/davlogo.png" alt="">
+                    <div class="overlay1"></div> <!-- Move the overlay here as a sibling -->
+                    </a>
+                </div>
+                <br>
+                <div class="education-content">
+                    <h3>DAV Gopalapuram</h3>
+                    <p>H<span>SC</span><br>(Jul 2016 - May 2018)<br>12th: 96.41%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience section design -->
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Exp<span>erience</span></h2>
+        <br>
+        <br>
+        <div class="experience1">
+            <div class="experience-img">
+                <a href="https://www.searce.com/" target="_blank"><img src="images/searce-logo.png" alt=""></a>
+                <br>
+                <br>
+                <p style="text-align: center; margin-left: -10px; padding-top: 2px; font-size: large;"><em>July 2022 - July 2023<br>Bengaluru, India</em></p>
+            </div>
+            <div class="experience-content">
+                <h3>Cloud Engineer |<span> Searce Inc</span></h3>
+                <ul>
+                    <h4>
+                      Hybrid Cloud Deployment and Resource Automation - HyDra |<span> Python, Flask, HTML, CSS, JS, PowerShell Script, Docker, Git.</span>
+                    </h4> <br>
+                    <li>
+                      Solely developed HyDra - an internal product to be used by Cloud Engineers and Architects across the company. HyDra was a single web page application which has the functionalities like Migration Sheet Generation, Build Sheet Generation, VM build Commands Generation, Inventory Sheet Generation, Benchmarking Report Generation, and Tfvars file generation for Google Cloud Platform. All these operations involved extensive work with Python dictionaries and Flask framework.
+                    </li>
+                    <li>
+                      A DockerFile containing all the necessary packages was used to create an image and was stored in the Artifact Registry of GCP. Using Cloud Build, the containerized application was spun up in Cloud Run.
+                    </li>
+                </ul>
+                  <h4>Virtual Machines Migration from AWS to GCP |<span> AWS, GCP, Migrate to Virtual Machines v5.0</span></h4><br>
+                  <ul>
+                    <li>
+                      Spearheaded the Migration PoC process during the kick-off stage of migration projects.
+                    </li>
+                    <li>
+                      Proficient with the nuances of using Google Cloud Platform`s Migrate to Virtual Machines v5.0 tool.
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="experience1">
+            <div class="experience-img">
+               <a href="https://ceg.annauniv.edu/index.php" target="_blank"><img src="images/ceglogo1.png" alt=""></a>
+                <br>
+                <br>
+                <p style="text-align: center; margin-left: -10px; padding-top: 2px; font-size: large;"><em>Aug 2018 - June 2022<br>Chennai, India</em></p>
+            </div>
+            <div class="experience-content">
+                <h3>Academic Projects | <span>College of Engineering Guindy, Anna University</span></h3>
+                <ul>
+                    <h4>
+                        Classification and Feature Prediction of Star, Galaxies, Quasars, and Galaxy Morphologies | <span>Python, Keras, Tensorflow</span> 
+                    </h4> <br>
+                    <li>
+                        A machine learning research project that classifies astronomical objects (stars, galaxies, and quasars) using spectroscopic data. Galaxies are further classified into 10 morphology classes using image classification techniques. Textual descriptions of galaxy features are also predicted using a decision tree (symbolic knowledge).
+                    </li>
+                    <li>
+                        This project was performed under the guidance of Prof. Dr. K. S. Easwarakumar and has been documented in the form of a <a href="https://drive.google.com/file/d/1PaTNcssE5e-eqvBeXsnQlSmZhsK4fvvS/view?usp=sharing" target="_blank"><span>thesis</span></a>. 
+                    </li>
+                </ul>
+                  <h4>Exoplanet Detection using ML <span>| Python, Keras, Tensorflow</span></h4> <br>
+                  <ul>
+                    <li>
+                        Developed an ML algorithm that predicts the presence of exoplanets based on the anomalies in the flux intensity data from NASA. Various anomaly detection techniques were considered for the time series data and the best one was implemented.
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h2 class="heading">Cert<span>ificates</span></h2>
+        <br>
+        <br>
+        <div class="certs">
+            <div class="cert-img">
+              <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/65579531" target="_blank">
+                <img src="images/pca.png" alt="">
+                <div class="overlay1"></div> <!-- Move the overlay here as a sibling -->
+              </a>
+            </div>
+            <div class="cert-img">
+              <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/63348570" target="_blank">
+                <img src="images/ace.png" alt="">
+                <div class="overlay1"></div> <!-- Move the overlay here as a sibling -->
+              </a>
+              
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Acting section design -->
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://formsubmit.co/3a08d4f9a2f5fd2f6b511fdc061f45b9" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="text" name="_subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SMTP js -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
