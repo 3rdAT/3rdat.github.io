@@ -33,6 +33,7 @@ html {
 }
 
 body {
+    max-width: 1372px;
     background: var(--bg-color);
     color: var(--text-color);
 }
@@ -240,11 +241,11 @@ section {
     margin-right: 5px;
 }
 
-.home .profession-box .profession:nth-child(3) i  {
+.home .profession-box .profession:nth-child(3){
     margin-right: 70px;
 }
 
-.home .profession-box .profession:nth-child(2) i  {
+.home .profession-box .profession:nth-child(2){
     margin-right: -23px;
 }
 
@@ -289,7 +290,7 @@ section {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 37%;
+    width: 67vh;
     pointer-events: none;
 }
 
@@ -695,7 +696,7 @@ span {
         transform: rotate(0deg) translate(0, -335px);
     }
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-115px, -490px);
+        transform: rotate(90deg) translate(-150px, -516px);
     }
     .home .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-150px, -345px);
@@ -750,10 +751,10 @@ span {
         transform: rotate(0deg) translate(5px, -335px);
     }
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-105px, -440px);
+        transform: rotate(90deg) translate(-126px, -480px);
     }
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-210px, -335px);
+        transform: rotate(180deg) translate(-152px, -340px);
     }
 
     .contact form .input-box input {
