@@ -22,10 +22,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "aswinrrv.jpeg"
   name             : "Aswin Ravikumar Rangasamy Veerasamy"
   pronouns         : # example: "she/her"  
-  bio              : "Currently starring in How to Train Your LLM: The Age of RL Approaches. The pay is terrible, but the job perks (like hit of a perfect fine-tuning run) are worth it."
+  bio              : "Currently starring in How to Train Your LLM: The Age of RL Approaches. The pay is terrible, but the job perks (like hitting a good training run) are worth it."
   location         : "Tempe, AZ, USA"
   employer         : "Arizona State University"
   uri              : # URL
@@ -80,10 +80,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  # books:
+  #   title: 'Books'
+  arXiv:
+    title: 'arXiv'    
   conferences:
     title: 'Conference Papers'
 
