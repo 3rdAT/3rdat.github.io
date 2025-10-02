@@ -25,7 +25,7 @@ author:
   avatar           : "aswinrrv.jpeg"
   name             : "Aswin Ravikumar Rangasamy Veerasamy"
   pronouns         : # example: "she/her"  
-  bio              : "Currently starring in How to Train Your LLM: The Age of RL Approaches. The pay is terrible, but the job perks (like hitting a good training run) are worth it."
+  bio              : "Currently starring in: How to Train Your LLM? The Age of RL Approaches"
   location         : "Tempe, AZ, USA"
   employer         : "Arizona State University"
   uri              : # URL
@@ -80,12 +80,11 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  # books:
-  #   title: 'Books'
-  arXiv:
-    title: 'arXiv'    
   conferences:
     title: 'Conference Papers'
+  # arXiv:
+  #   title: 'arXiv Preprints'    
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
